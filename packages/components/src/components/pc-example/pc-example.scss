@@ -1,0 +1,12 @@
+.pc-example {
+  display: block;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background-color: var(--pc-example-background, #ffffff);
+  color: var(--pc-example-color, #000000);
+  box-shadow: var(--pc-example-shadow, 0 1px 3px rgba(0, 0, 0, 0.1));
+
+  &:hover {
+    box-shadow: var(--pc-example-hover-shadow, 0 2px 4px rgba(0, 0, 0, 0.15));
+  }
+}
